@@ -1,4 +1,4 @@
-# Palindrome
+# Palindrome Tester
 print("Author: John Farina \n")
 
 # Title of the program as well as the purpose of the program
