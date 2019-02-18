@@ -11,12 +11,6 @@ class RunGame:
 
     def __init__(self):
         self.initial_start()
-        self.water_path()
-        self.dark_path()
-        self.battle_room()
-        self.final_room()
-        self.final_decision()
-        self.retry()
 
     def initial_start(self):
 
@@ -145,4 +139,5 @@ class RunGame:
                 print("Please enter either 'Y' or 'N'.")
 
 
-RunGame()
+if __name__ == "__main__":
+    RunGame()
