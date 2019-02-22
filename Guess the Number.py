@@ -7,8 +7,7 @@ until the program quits and tells the user what that number was.
 # Author: John Farina
 import random
 
-print("Hello, what is your name?")
-name = input()
+name = input("Hello, what is your name?")
 
 # Assigns the variable 'secretNumber' a random number value
 print("Well, " + name + ", I am thinking of a number between 1 and 20.")
