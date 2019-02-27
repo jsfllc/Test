@@ -1,4 +1,3 @@
-# Quadratic Equation
 """
 The purpose of this program is to find the real roots of
 the values a, b, and c using the quadratic equation.
