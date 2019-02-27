@@ -1,13 +1,10 @@
-import cmath
-
-
 # Quadratic Equation
-print("Author: John Farina \n")
+"""
+The purpose of this program is to find the real roots of
+the values a, b, and c using the quadratic equation.
+"""
 
-# Program title as well as the purpose of the program.
-print("Quadratic Equation: Real Roots Calculator")
-print("The purpose of this program is to find the real roots of ")
-print("the values a, b, and c using the quadratic equation.\n")
+import cmath
 
 # Setting the user input equal to an integer and assigning that integer a variable.
 a = int(input("Enter the coefficients of a: "))
@@ -30,4 +27,5 @@ def main():
         print("This equation has two solutions: ", x1, " or ", x2, "\n")
 
 
-main()  # The statement that runs the "main" method
+if __name__ == '__main__':
+    main()
