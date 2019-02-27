@@ -14,4 +14,5 @@ def count_vowels():
     print("Your phrase has " + str(vowels) + " vowels.")
 
 
-count_vowels()
+if __name__ == '__main__':
+    count_vowels()
