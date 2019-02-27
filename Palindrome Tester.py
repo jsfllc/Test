@@ -1,11 +1,9 @@
 # Palindrome Tester
-print("Author: John Farina \n")
-
-# Title of the program as well as the purpose of the program
-print("Palindrome Tester")
-print("The purpose of this program is to test a string of text ")
-print("and determine if that word is in fact, a palindrome.\n")
-
+# Author: John Farina
+"""
+The purpose of this program is to test a string of text
+and determine if that word is in fact, a palindrome.
+"""
 
 # Palindrome method, which disregards spaces in the user's input and reverses that string
 # in order to test the input to see if it is a palindrome.
