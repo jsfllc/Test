@@ -1,5 +1,3 @@
-# Palindrome Tester
-# Author: John Farina
 """
 The purpose of this program is to test a string of text
 and determine if that word is in fact, a palindrome.
@@ -8,21 +6,14 @@ and determine if that word is in fact, a palindrome.
 # Palindrome method, which disregards spaces in the user's input and reverses that string
 # in order to test the input to see if it is a palindrome.
 def palindrome():
-    string = input("Please insert a palindrome: ")
-    string = string.lower()
+    string = input("Please insert a palindrome: ").lower()
     if ' ' in string:
         string = string.replace(' ', '')
-    if str(string) == str(string)[::-1]:
-        return True
-    return False
+    elif str(string) == str(string)[::-1]:
+        print("The following string is a palindrome.\n")
+    else:
+        print("The following string is not a palindrome.\n")
+        
 
-
-# Setting the value of "answer" equal to the palindrome method
-answer = palindrome()
-
-# If/else statement to determine which output is neccessary based on the outcome of
-# the palindrome method.
-if answer:
-    print("The following string is a palindrome.\n")
-else:
-    print("The following string is not a palindrome.\n")
+if __name__ == '__main__':
+    palindrome()
