@@ -1,7 +1,7 @@
 """
 This game is a text based game that will run users through a series of events.
-The purpose of this game is to, successfully, get through all of the events and reach the
-amulet of time and space.
+The purpose of this game is to successfully get through all of the events and reach the
+amulet of time.
 """
 
 import sys
