@@ -1,6 +1,4 @@
 """
-Author: John Farina
-
 This is a program/game that implements a Binary Search by
 making the computer play Hi-Lo. In this program, the computer
 will guess a user's number that is in between 1 and a higher
