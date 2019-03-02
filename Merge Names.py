@@ -1,10 +1,7 @@
-# Merge Names
-print("Author: John Farina \n")
-
-# Program name and purpose of the program
-print("Merge Names")
-print("The purpose of this program is to combine a list of first names ")
-print("with a list of last names, and, in turn, form a first and last name list\n")
+"""
+The purpose of this program is to combine a list of first names
+with a list of last names, and, in turn, form a first and last name list
+"""
 
 # Input that asks users for a list of first names separated by a comma
 # and then sets those inputs into values in the firstList list
