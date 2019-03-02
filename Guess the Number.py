@@ -4,7 +4,6 @@ number between 1 and 20. The user then has 6 guesses
 until the program quits and tells the user what that number was.
 """
 
-# Author: John Farina
 import random
 
 name = input("Hello, what is your name?")
