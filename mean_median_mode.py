@@ -8,7 +8,7 @@ import statistics as stat
 
 def calculator():
     numbers = [int(number) for number in
-    input("Please enter a list of numbers (sepeate your list with spaces): ").split()]
+    input("Please enter a list of numbers (separate your list with spaces): ").split()]
     choice = input("\nWould you like to find the mean, median, or mode of these numbers?: ").lower()
 
     if choice == "mean":
