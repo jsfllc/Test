@@ -5,9 +5,8 @@ Celsius or Fahrenheit based upon the choice of the user.
 
 
 def temperature_converter():
-
     start_temp = float(input("Enter a temperature: "))
-
+    
     while True:
         convert = input("Would you like to convert that to (C)elsius or (F)ahrenheit?: ").lower()
 
