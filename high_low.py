@@ -18,6 +18,7 @@ while True:
     except ValueError:
         print("Invalid response, please enter an integer.")
         continue
+      
     if highNumber < 0:
         print("Please insert a positive integer.")
     else:
