@@ -6,14 +6,14 @@ between a set of two numbers.
 # While statement that tests to see if user input follows the set parameters
 # If the user input is incorrect, the program will notify the user to try their input again.
 while True:
-    firstNum = input("Please enter the first integer value: ")
-    secondNum = input("Please enter the second integer value: ")
+    firstNum = int(input("Please enter the first integer value: "))
+    secondNum = int(input("Please enter the second integer value: "))
     if (
             firstNum.isdigit() and
             secondNum.isdigit() and
-            int(firstNum) >= 0 and
-            int(secondNum) >= 0 and
-            int(firstNum) <= int(secondNum)):
+            firstNum >= 0 and
+            secondNum >= 0 and
+            firstNum <= secondNum):
                 break
     else:
         print("\nInvalid input, please try again.\n")
