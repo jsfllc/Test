@@ -6,9 +6,10 @@ it will print a welcome back message.
 
 import json
 
+filename = 'username.json'
+
 
 def username():
-    filename = 'username.json'
     try:
         with open(filename) as f_obj:
             username = json.load(f_obj)
