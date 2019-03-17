@@ -20,9 +20,9 @@ def merge():
 
     # Output of the firstList and lastList lists and then zips the entities together into
     # (firstname and lastname) pairs
-    print("The list of first names is: " + str(firstList))
-    print("The list of last names is: " + str(lastList))
-    print("The list of first and last names is: " + str(firstLastList).replace(',', ''))
+    print("\nThe list of first names is: " + str(firstList))
+    print("\nThe list of last names is: " + str(lastList))
+    print("\nThe list of first and last names is: " + str(firstLastList).replace(',', ''))
 
 if __name__ == '__main__':
     merge()
