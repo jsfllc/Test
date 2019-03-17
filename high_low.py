@@ -25,8 +25,7 @@ while True:
         break
 
 # While statement that takes user input and determines the best course of action
-guessing = True
-while guessing:
+while True:
     guess = (lowNumber + highNumber) // 2   # Equation that makes it possible for computer to guess the user's number
     print("Your number has to be {}, right?".format(guess))
     hiLowInput = input("Let me know if the guess is too high with >, "
