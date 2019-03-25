@@ -17,7 +17,7 @@ def count_bottles():
         elif bottles == 1:
             print(str(bottles) + " bottle of beer on the wall " 
             + str(bottles) + " bottle of beer.")
-        elif bottles = 0
+            bottles = 0
             print("You take one down and pass it around, " 
             + str(bottles) + " bottles of beer of the wall.")
         else:
