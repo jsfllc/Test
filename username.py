@@ -1,7 +1,8 @@
 """
 A simple program that will ask users for their username and then create a json
 file to store that username in. If that name already exists within the json file,
-it will print a welcome back message.
+it will print a welcome back message. This program was example in the 'Python Crash
+Course' book.
 """
 
 import json
