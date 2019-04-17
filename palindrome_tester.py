@@ -1,6 +1,6 @@
 """
 The purpose of this program is to test a string of text
-and determine if that word is in fact, a palindrome.
+and determine if that word is a palindrome.
 """
 
 # Palindrome method, which disregards spaces in the user's input and reverses that string
