@@ -1,7 +1,7 @@
 """
-This program will ask a user to input the amount that is owed and then ask for
-how much was given toward this total. The program will then output how much change
-is due back.
+This program will ask a user for the amount that is owed and then ask for
+how much was given toward the total amount. The program will then output 
+how much change is due back.
 """
 
 def change():
