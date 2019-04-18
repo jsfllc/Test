@@ -1,5 +1,5 @@
 """
-This program acts as a mpg calculator. The program will ask a user
+This program is a mpg calculator. The program will ask a user
 how many miles were driven on a tank of gas. Then the program will
 ask the user how many gallons were added to the user's tank. Finally,
 the program will calculate the mpg for the user's vehicle and display
