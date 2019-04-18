@@ -1,5 +1,5 @@
 """
-This program asks a user for a word or phrase, then takes that word or phrase and outputs
+This program asks a user for a string and then takes that word or phrase and outputs
 its respected MD5 hash value.
 """
 
