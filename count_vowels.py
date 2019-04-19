@@ -1,5 +1,6 @@
 """
-A simple script to count the number of vowels in a sentence given as input.
+A simple script that will count the number of vowels in a word or phrase that
+is given as input.
 """
 
 
