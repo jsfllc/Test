@@ -1,6 +1,6 @@
 """
-This program tests if a number given by the user is either even or odd by using
-the equation of (user input) modulo 2. If the outcome of this equation is zero,
+This script tests if a number that is given by the user is either even or odd by 
+using the equation of (user input) modulo 2. If the outcome of this equation is zero,
 then the program will tell the user their number is even, if the outcome is not
 zero, then the program will tell the user their number is odd.
 """
