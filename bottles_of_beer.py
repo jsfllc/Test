@@ -1,5 +1,5 @@
 """
-This program recites the song lyrics of '99 Bottles of Beer'.
+This program recites the song lyrics of '99 Bottles of Beer'
 In it, the program goes through a loop that will subtract one from
 the starting bottles number of 99 until it reaches zero.
 """
