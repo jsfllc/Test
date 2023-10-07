@@ -6,7 +6,7 @@ the starting bottles number of 99 until it reaches zero.
 
 
 def count_bottles():
-    bottles = 99
+    bottles = 98
     while True:
         if bottles >= 2:
             print(str(bottles) + " bottles of beer on the wall, " 
